@@ -1,20 +1,19 @@
 import React from "react";
 import styles from "./Login.module.css";
-import LoginButton from "../../components/LoginButton";
-
-const Login = () => {
+import CadastroButton from "../../components/CadastroButton";
+function Cadastro() {
   return (
     <div className={styles.loginContainer}>
-      <h2>Login</h2>
+      <h2>Cadastrar</h2>
 
       <div className={styles.formContainer}>
         <form className={styles.form}>
           <div className={styles.labelCampos}>
-            <label className={styles.labelForm}>Usuário:</label>
+            <label className={styles.labelForm}>Nome Completo:</label>
             <input
               type="text"
               className={styles.inputForm}
-              placeholder="Ex.:José"
+              placeholder="Ex.: José da Silva"
               required
             />
           </div>
@@ -22,21 +21,27 @@ const Login = () => {
           <div className={styles.labelCampos}>
             <label className={styles.labelForm}>Email:</label>
             <input
-              type="text"
+              type="email"
               className={styles.inputForm}
-              placeholder="exemplo@dominio.com"
+              placeholder="exemplo@dominio.com.br"
               required
             />
           </div>
 
-          <div>{LoginButton()}</div>
+          <div className={styles.labelCampos}>
+            <label className={styles.labelForm}>Senha:</label>
+            <input type="password" className={styles.inputForm} required />
+          </div>
+
+          <div>{CadastroButton()}</div>
 
           <div className={styles.link}>
-            <a href="#">esqueci senha</a>
+            <a href="#">Ainda não possui uma conta? Cadastre-se</a>
           </div>
         </form>
       </div>
     </div>
   );
-};
-export default Login;
+}
+
+export default Cadastro;

@@ -1,56 +1,57 @@
 .formContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .labelForm {
-    width: 100%;
-    font-weight: bold;
-    display: block;
-    font-size: 15px;
+  width: 100%;
+  font-weight: bold;
+  display: block;
+  font-size: 15px;
 }
 
 .form {
-   
-    width: 100%;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .loginContainer {
-    height: 400px;
-    width: 500px;
-    border-radius: 30px;
-    color: black;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  height: 500px;
+  width: 500px;
+  border-radius: 30px;
+  color: black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
 }
 
 .inputForm {
-    max-width: 200px;
-    border-radius: 5px; 
-    padding: 8px 4px;
- 
+  width: 100%;
+  border-radius: 5px;
+  padding: 8px 4px;
 }
 .forget {
-    text-decoration: underline; 
-    margin-left: 2px; 
+  text-decoration: underline;
+  margin-left: 2px;
 }
 
-.forget a {
-  
-    color: rgb(112, 110, 110); 
-    text-decoration: none; 
-    padding-left: 5px;
+.link a {
+  color: rgb(112, 110, 110);
+  text-decoration: none;
+  padding-left: 5px;
 }
 
-.forget a:hover {
-    color: black;
-    text-decoration: underline; 
+.link a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.labelCampos {
+  width: 250px;
 }
