@@ -11,7 +11,8 @@
 }
 
 .form {
-    width: 80%;
+   
+    width: 100%;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -20,8 +21,8 @@
 
 .loginContainer {
     height: 400px;
-    width: 650px;
-    border-radius: 20px;
+    width: 500px;
+    border-radius: 30px;
     color: black;
     border-radius: 5px;
     display: flex;
@@ -32,6 +33,24 @@
 }
 
 .inputForm {
+    max-width: 200px;
     border-radius: 5px; 
     padding: 8px 4px;
+ 
+}
+.forget {
+    text-decoration: underline; 
+    margin-left: 2px; 
+}
+
+.forget a {
+  
+    color: rgb(112, 110, 110); 
+    text-decoration: none; 
+    padding-left: 5px;
+}
+
+.forget a:hover {
+    color: black;
+    text-decoration: underline; 
 }

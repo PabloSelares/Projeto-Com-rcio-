@@ -12,7 +12,7 @@ const Login = () => {
 
         <form className={styles.form}>
           <div>
-            <label className={styles.labelForm}>Nome:</label>
+            <label className={styles.labelForm}>Usuário:</label>
             <input type='text' className={styles.inputForm} placeholder='Ex.:José' required />
           </div>
 
@@ -23,8 +23,8 @@ const Login = () => {
           <div>
             {LoginButton()}
             </div>
-            <div> 
-              <a href="">Esqueci Senha</a>
+            <div className={styles.forget}> 
+              <a href="#">esqueci senha</a>
             </div>
         </form>
       </div>
