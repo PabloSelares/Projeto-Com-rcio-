@@ -1,0 +1,37 @@
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.labelForm {
+    width: 100%;
+    font-weight: bold;
+    display: block;
+    font-size: 15px;
+}
+
+.form {
+    width: 80%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.loginContainer {
+    height: 400px;
+    width: 650px;
+    border-radius: 20px;
+    color: black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+}
+
+.inputForm {
+    border-radius: 5px; 
+    padding: 8px 4px;
+}
